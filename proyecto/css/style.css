@@ -1,0 +1,93 @@
+/* Variables CSS */
+:root {
+    --primary-color: #07BEB8;
+    --background-simple: red;
+    --background-hex: #3DCCC7;
+    --text-color: antiquewhite;
+    --header-bg: #FEFCFD;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos globales */
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: var(--background-simple);
+    flex-direction: column;
+    display: flex;
+}
+
+/* Header */
+.header {
+    background-color: var(--header-bg);
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+/* Sección de color */
+.color-display {
+    background: black;
+    color: var(--text-color);
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.color-display__value {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Botón */
+.button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: red;
+    color: var(--text-color);
+    border: none;
+}
+
+.button:hover {
+    background: darkred;
+}
