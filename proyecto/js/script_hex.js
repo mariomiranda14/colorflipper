@@ -1,9 +1,7 @@
 
 // Array de colores predefinidos
-const colors = [
-    "Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown", "Gray", "Cyan",
-    "Magenta", "Lime", "Maroon", "Navy", "Olive", "Teal", "Turquoise", "Violet", "Gold", "Silver"
-];
+const colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#A133FF", "#33FFF5"];
+
 
 const colorButton = document.getElementById("colorButton");
 const colorDisplay = document.querySelector(".color-display__value");
